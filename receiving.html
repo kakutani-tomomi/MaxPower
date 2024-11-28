@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+</head>
+
+<body>
+    <script>
+        const param = new URLSearchParams(window.location.search);
+
+        let neme = param.get("name");
+        let age = param.get("age");
+        alert("名前:" + name + "年齢:" + age);
+
+    </script>
+</body>
+
+</html>
